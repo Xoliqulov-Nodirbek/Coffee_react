@@ -1,0 +1,17 @@
+// ------------ Site-logo ------------
+
+.header__logo-img{
+    width: 236px;
+    height: 26px;
+}
+
+// ------------- Responsive-part in header --------------
+
+@media only screen and (max-width: 992px){
+
+    .header__logo-img{
+        width: 163px;
+        height: 18px;
+    }
+
+}

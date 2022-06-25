@@ -1,0 +1,100 @@
+.collection__card{
+    list-style-type: none;
+    width: 23%;
+    padding: 0 5px;
+    margin-bottom: 130px;
+}
+
+.collection__card--img{
+    width: 255px;
+    height: 193px;
+}
+
+.collection__card--title{
+    font-family: Fraunces;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #333D4B;
+    margin: 70px 0 0 0;
+}
+
+.collection__card--text{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #333D4B;
+    margin: 24px 0 0 0;
+}
+
+// // ------------ Responssive-part in our_collection --------------
+
+
+@media only screen and (max-width: 1025px){
+
+    .collection__card{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .collection__card--img{
+        margin: 0 auto;
+        padding: 0;
+        margin: 0;
+    }    
+    
+    .collection__card--content{
+        width: 40%;
+        margin-top: -40px;    
+    }
+    
+    .collection__card--title{
+        font-size: 24px;
+        line-height: 32px;
+        text-align: start;
+    }
+    
+    .collection__card--text{
+        font-size: 15px;
+        line-height: 25px;
+        text-align: start;
+    }
+
+}
+
+@media only screen and (max-width: 660px){
+
+    .collection__card{
+        flex-direction: column;
+        width: 100%;
+        margin-top: -70px;
+    }
+    
+    .collection__card--img{
+        margin: 0 auto;
+        padding: 0;
+    }    
+    
+    .collection__card--content{
+        width: 100%;
+        margin: 0;
+    }
+    
+    .collection__card--title{
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        margin: 0;
+    }
+    
+    .collection__card--text{
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        margin: 0;
+    }
+    
+}

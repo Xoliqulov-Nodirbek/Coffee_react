@@ -1,0 +1,44 @@
+.header__inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 43px 0 45px 0;
+}
+
+// ---------- Site-button -----------
+
+.header__menu{
+    border: none;
+    background-color: #fff;
+    display: none;
+}
+
+.header__menu--img{
+    width: 18px;
+    height: 15px;
+}
+
+
+// ------------- Responsive-part in header --------------
+
+
+@media only screen and (max-width: 992px){
+    
+    .header__inner{
+        padding: 40px 0 42px 0;
+    }
+    
+}
+
+@media only screen and (max-width: 660px){
+
+    .header__inner{
+        padding: 32px 0 36px 0;
+        position: relative;
+    }
+    
+    .header__menu{
+        display: block;
+    }
+    
+}

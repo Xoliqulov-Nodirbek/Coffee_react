@@ -1,0 +1,44 @@
+.collection__inner{
+    background-image: url("../../assets/images/our-bg.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    margin-top: 150px;
+}
+
+.collection__list{
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 80px 0 80px;
+}
+
+@media only screen and (max-width: 1025px){
+    
+    .collection__inner{
+        background-image: url("../../assets/images/our-bg-tablet.png");
+        background-repeat: no-repeat;
+        background-position: center top;
+        margin-top: 144px;
+    }
+    
+    .collection__list{
+        flex-direction: column;
+        padding: 60px 0 0 20px;
+    }
+
+}
+
+@media only screen and (max-width: 1025px){
+    
+    .collection__inner{
+        background-image: url("../../assets/images/our-bg-tablet.png");
+        background-repeat: no-repeat;
+        background-position: center top;
+        margin-top: 144px;
+    }
+    
+    .collection__list{
+        flex-direction: column;
+        padding: 60px 0 0 20px;
+    }
+
+}
