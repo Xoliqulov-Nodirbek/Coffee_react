@@ -1,0 +1,43 @@
+.footer__inner{
+    background: #2C343E;
+    padding: 48px 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    border-radius: 10px;
+}
+
+// ------- footer-right -------
+
+.footer__list{
+    display: flex;
+    align-items: center;
+}
+
+// ----------- Responsive-part in footer -----------
+
+
+@media only screen and (max-width: 1090px){
+    
+    .footer__inner{
+        padding: 55px;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+}
+
+@media only screen and (max-width: 600px){
+    
+    .footer__inner{
+        padding: 55px;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+}
+
+
+
+

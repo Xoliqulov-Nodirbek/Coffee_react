@@ -1,0 +1,33 @@
+// ------- footer-right -------
+
+.footer__right--item{
+    list-style-type: none;
+}
+
+.footer__right--item:not(:first-child){
+    margin-left: 24px;
+}
+
+.footer__right--icon{
+    width: 24px;
+    height: 24px;
+}
+
+@media only screen and (max-width: 1090px){
+
+    .footer__list{
+        margin: 0;
+        padding: 0;
+    }
+
+}
+
+@media only screen and (max-width: 600px){
+
+    // ---------- footer-right -----------
+
+    .footer__list{
+        padding: 0;
+    }
+
+}

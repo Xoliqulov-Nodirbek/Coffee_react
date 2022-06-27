@@ -8,6 +8,7 @@ import Works from "./components/works/works";
 import "./assets/Scss/container.scss";
 import "./assets/Scss/general.scss";
 import "./assets/Scss/fonts.scss";
+import Footer from "./components/footer/footer";
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
           <Choose />
           <Works />
         </main>
+        <footer class="site__footer">
+          <Footer />
+        </footer>
       </div>
     </>
   );
