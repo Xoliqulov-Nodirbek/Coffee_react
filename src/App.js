@@ -1,6 +1,7 @@
 import Header from "./components/header/header";
 import Hero from "./components/hero/hero";
 import Collection from "./components/collection/collection";
+import Choose from "./components/choose/choose";
 
 // ----> Scss
 import "./assets/Scss/container.scss";
@@ -17,6 +18,7 @@ function App() {
         <main class="site__main">
           <Hero />
           <Collection />
+          <Choose />
         </main>
       </div>
     </>

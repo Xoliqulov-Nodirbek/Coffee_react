@@ -1,0 +1,407 @@
+// ---------- Choose-cards ----------
+
+.choose__cards{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 85px;
+    margin-top: 85px;
+}
+
+// --------- one ---------
+
+.card__one{
+    width: 31%;
+    height: 370px;
+    background-color: #0E8684;
+    border-radius: 8px;
+}
+
+.card__one--content{
+    width: 76%;
+    margin: 0 auto;
+}
+
+.card__one--title{
+    position: relative;
+    font-family: Fraunces;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #FEFCF7;
+    margin-top: 200px;
+}
+
+.card__one--title::before{
+    content: "";
+    position: absolute;
+    background-image: url('../../assets/icons/card-one.svg');
+    background-repeat: no-repeat;
+    width: 72px;
+    height: 72px;
+    top: -130px;
+    left: 90px;
+}
+
+.card__one--text{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FEFCF7;
+}
+
+// --------- two ----------
+
+.card__two{
+    width: 31%;
+    height: 370px;
+    background-color: #0E8684;
+    border-radius: 8px;
+}
+
+.card__two--content{
+    width: 74%;
+    margin: 0 auto;
+}
+
+.card__two--title{
+    position: relative;
+    font-family: Fraunces;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #FEFCF7;
+    margin-top: 200px;
+}
+
+.card__two--title::before{
+    content: "";
+    position: absolute;
+    background-image: url('../../assets/icons/card-two.svg');
+    background-repeat: no-repeat;
+    width: 72px;
+    height: 72px;
+    top: -130px;
+    left: 90px;
+}
+
+.card__two--text{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FEFCF7;
+}
+
+// --------- three ----------
+
+.card__three{
+    width: 31%;
+    height: 370px;
+    background-color: #0E8684;
+    border-radius: 8px;
+}
+
+.card__three--content{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.card__three--title{
+    position: relative;
+    font-family: Fraunces;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #FEFCF7;
+    margin-top: 200px;
+}
+
+.card__three--title::before{
+    content: "";
+    position: absolute;
+    background-image: url('../../assets/icons/card-three.svg');
+    background-repeat: no-repeat;
+    width: 72px;
+    height: 50px;
+    top: -110px;
+    left: 100px;
+}
+
+.card__three--text{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FEFCF7;
+}
+
+// ------------- Responsive-part in choose-us ------------
+
+@media only screen and (max-width: 1200px){
+
+    // ---------- Choose-cards ----------
+    
+    .choose__cards{
+        width: 100%;
+        position: absolute;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0 57px;
+        margin-top: 70px;
+    }
+    
+    // --------- one ---------
+    
+    .card__one{
+        width: 100%;
+        height: 180px;
+    }
+    
+    .card__one--content{
+        width: 90%;
+        margin: 0 auto;
+        padding-left: 150px;
+        margin-top: 30px;
+    }
+    
+    .card__one--title{
+        position: relative;
+        font-size: 24px;
+        line-height: 32px;
+        margin-top: 0;
+        text-align: start;
+    }
+    
+    .card__one--title::before{
+        content: "";
+        position: absolute;
+        background-image: url('../../assets/icons/card-one.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 56px;
+        height: 56px;
+        top: 30px;
+        left: -120px;
+    }
+    
+    .card__one--text{
+        font-size: 15px;
+        line-height: 25px;
+        text-align: start;
+    }
+    
+    // --------- two ---------
+    
+    .card__two{
+        width: 100%;
+        height: 180px;
+        margin-top: 25px;
+    }
+    
+    .card__two--content{
+        width: 90%;
+        margin: 0 auto;
+        padding-left: 150px;
+        margin-top: 30px;
+    }
+    
+    .card__two--title{
+        position: relative;
+        font-size: 24px;
+        line-height: 32px;
+        margin-top: 0;
+        text-align: start;
+    }
+    
+    .card__two--title::before{
+        content: "";
+        position: absolute;
+        background-image: url('../../assets/icons/card-two.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 56px;
+        height: 56px;
+        top: 30px;
+        left: -120px;
+    }
+    
+    .card__two--text{
+        font-size: 15px;
+        line-height: 25px;
+        text-align: start;
+    }
+    
+    // --------- two ---------
+    
+    .card__three{
+        width: 100%;
+        height: 180px;
+        margin-top: 25px;
+    }
+    
+    .card__three--content{
+        width: 90%;
+        margin: 0 auto;
+        padding-left: 150px;
+        margin-top: 30px;
+    }
+    
+    .card__three--title{
+        position: relative;
+        font-size: 24px;
+        line-height: 32px;
+        margin-top: 0;
+        text-align: start;
+    }
+    
+    .card__three--title::before{
+        content: "";
+        position: absolute;
+        background-image: url('../../assets/icons/card-three-tab.svg');
+        background-repeat: no-repeat;
+        width: 55px;
+        height: 39px;
+        top: 30px;
+        left: -120px;
+    }
+    
+    .card__three--text{
+        font-size: 15px;
+        line-height: 25px;
+        text-align: start;
+    }
+
+}
+
+@media only screen and (max-width: 590px){
+    
+    // ---------- Choose-cards ----------
+    
+    .choose__cards{
+        position: absolute;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 24px;
+        margin-top: 64px;
+        width: 100%;
+    }
+    
+    // --------- one ---------
+    
+    .card__one{
+        width: 100%;
+        height: 370px;
+    }
+    
+    .card__one--content{
+        width: 80%;
+        padding: 0;
+    }
+    
+    .card__one--title{
+        position: relative;
+        font-size: 24px;
+        line-height: 32px;
+        margin-top: 200px;
+        text-align: center;
+    }
+    
+    .card__one--title::before{
+        content: "";
+        position: absolute;
+        background-image: url('../../assets/icons/card-one.svg');
+        background-repeat: no-repeat;
+        width: 72px;
+        height: 72px;
+        top: -130px;
+        left: 80px;
+    }
+    
+    .card__one--text{
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+    }
+
+    // --------- two ---------
+    
+    .card__two{
+        width: 100%;
+        height: 370px;
+    }
+    
+    .card__two--content{
+        width: 80%;
+        padding: 0;
+    }
+    
+    .card__two--title{
+        position: relative;
+        font-size: 24px;
+        line-height: 32px;
+        margin-top: 200px;
+        text-align: center;
+    }
+    
+    .card__two--title::before{
+        content: "";
+        position: absolute;
+        background-image: url('../../assets/icons/card-two.svg');
+        background-repeat: no-repeat;
+        width: 72px;
+        height: 72px;
+        top: -130px;
+        left: 80px;
+    }
+    
+    .card__two--text{
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+    }
+
+    // --------- one ---------
+    
+    .card__three{
+        width: 100%;
+        height: 370px;
+    }
+    
+    .card__three--content{
+        width: 80%;
+        padding: 0;
+    }
+    
+    .card__three--title{
+        position: relative;
+        font-size: 24px;
+        line-height: 32px;
+        margin-top: 200px;
+        text-align: center;
+    }
+    
+    .card__three--title::before{
+        content: "";
+        position: absolute;
+        background-image: url('../../assets/icons/card-three-tab.svg');
+        background-repeat: no-repeat;
+        width: 72px;
+        height: 72px;
+        top: -110px;
+        left: 90px;
+    }
+    
+    .card__three--text{
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+    }
+    
+}
