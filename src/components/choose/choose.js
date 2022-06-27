@@ -15,14 +15,17 @@ const Choose = () => {
 
                     <div class="choose__cards card">
                         <ChooseCard 
+                            newClass={"card__one"}
                             title={"Best quality"} 
                             text={"Discover an endless variety of the world’s best artisan coffee from each of our roasters."} 
                         />
                         <ChooseCard 
+                            newClass={"card__two"}
                             title={"Exclusive benefits"} 
                             text={"Special offers and swag when you subscribe, including 30% off your first shipment."} 
                         />
                         <ChooseCard 
+                            newClass={"card__three"}
                             title={"Free shipping"} 
                             text={"We cover the cost and coffee is delivered fast. Peak freshness: guaranteed."} 
                         />
