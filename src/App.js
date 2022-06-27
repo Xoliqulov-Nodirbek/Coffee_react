@@ -2,6 +2,7 @@ import Header from "./components/header/header";
 import Hero from "./components/hero/hero";
 import Collection from "./components/collection/collection";
 import Choose from "./components/choose/choose";
+import Works from "./components/works/works";
 
 // ----> Scss
 import "./assets/Scss/container.scss";
@@ -19,6 +20,7 @@ function App() {
           <Hero />
           <Collection />
           <Choose />
+          <Works />
         </main>
       </div>
     </>

@@ -1,0 +1,122 @@
+.works__inner{
+    padding: 340px 0 200px 85px;
+}
+
+.works__title--text{
+    font-family: Fraunces;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+    margin: 0;
+}
+
+// ------ Works-line -------
+
+.works__line{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    padding: 80px 0 70px 0;
+}
+
+.round{
+    width: 31px;
+    height: 31px;
+    border: 2px solid #0E8784;
+    border-radius: 50%;
+}
+
+.line{
+    width: 50%;
+    height: 2px;
+    background-color: #FDD6BA;
+}
+
+// --------- Works-cards ----------
+
+.works__cards{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    padding-bottom: 64px;
+}
+
+// --------- Works__link ---------
+
+.works__link{
+    font-family: Fraunces;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FEFCF7;
+    text-decoration: none;
+    padding: 15px 30px;
+    background: #0E8784;
+    border-radius: 6px; 
+}
+
+.works__link:active{
+    background: #66D2CF;
+}
+
+
+// ---------- Responsive-part in works ------------
+
+
+@media only screen and (max-width: 992px){
+    
+    .works__inner{
+        padding: 440px 0 144px 0;
+    }
+    
+    // ------ Works-line -------
+    
+    .works__line{
+        padding: 40px 0 50px 0;
+    }
+    
+    // --------- Works-cards ----------
+    
+    .works__cards{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding-bottom: 44px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 590px){
+    
+    .works__inner{
+        padding: 700px 0 200px 0;
+        text-align: center;
+    }
+    
+    .works__title--text{
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 24px;
+        text-align: center;
+    }
+
+    // ------ Works-line -------
+    
+    .works__line{
+        display: none;
+    }
+    
+    // --------- Works-cards ----------
+    
+    .works__cards{
+        flex-direction: column;
+        margin: 0 auto;
+        width: 100%;
+        padding-bottom: 80px;
+    }
+    
+}

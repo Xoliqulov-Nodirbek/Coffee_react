@@ -1,0 +1,64 @@
+.works__card{
+    width: 28%;
+}
+
+.works__card--img{
+    width: 100px;
+    height: 65px;
+}
+
+.works__content--title{
+    font-family: Fraunces;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+    margin: 0;
+    padding: 38px 0 42px 0;
+}
+
+.works__content--text{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+    margin: 0;
+}
+
+// ---------- Responsive-part in works ------------
+
+
+@media only screen and (max-width: 992px){
+    
+    .works__card{
+        width: 32.5%;
+    }
+    
+    .works__card--img{
+        width: 90px;
+        height: 52px;
+    }
+    
+    .works__content--title{
+        font-size: 28px;
+        line-height: 32px;
+        padding: 38px 0 42px 0;
+    }
+    
+    .works__content--text{
+        font-size: 15px;
+        line-height: 25px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 590px){
+
+    .works__card{
+        width: 100%;
+        margin-top: 56px;
+        padding: 0 10px;
+    }
+    
+}
