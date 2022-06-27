@@ -11,22 +11,22 @@ import CardImg3 from "../../assets/images/03.png";
 
 const Works = () => {
     return (
-        <section class="works">
-            <div class="works__inner">
+        <section className="works">
+            <div className="works__inner">
 
-                <div class="works__title">
-                        <h3 class="works__title--text">How it works</h3>
+                <div className="works__title">
+                        <h3 className="works__title--text">How it works</h3>
                 </div>
 
-                <div class="works__line">
-                    <div class="round"></div>
-                    <span class="line"></span>
-                    <div class="round"></div>
-                    <span class="line"></span>
-                    <div class="round"></div>
+                <div className="works__line">
+                    <div className="round"></div>
+                    <span className="line"></span>
+                    <div className="round"></div>
+                    <span className="line"></span>
+                    <div className="round"></div>
                 </div>
                     
-                <div class="works__cards">
+                <div className="works__cards">
 
                     <WorksCard
                         img={ CardImg1 }
@@ -41,7 +41,7 @@ const Works = () => {
                     <WorksCard
                         img={ CardImg3 }
                         title={` Receive and enjoy! `}
-                        text={"We ship your package within 48 hours, freshly roasted. Sit back and enjoy award-winning world-class coffees curated to provide a distinct tasting experience."}
+                        text={"We ship your package within 48 hours, freshly roasted. Sit back and enjoy award-winning world-className coffees curated to provide a distinct tasting experience."}
                     />         
 
                 </div>

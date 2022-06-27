@@ -6,11 +6,11 @@ import "./card.scss";
 
 const Card = ({ img, title, text }) => {
     return (
-        <li class="collection__card">
-            <img class="collection__card--img" src={ img } alt="gran expresso" />
-            <div class="collection__card--content">
-                <h3 class="collection__card--title">{ title }</h3>
-                <p class="collection__card--text">{ text }</p>
+        <li className="collection__card">
+            <img className="collection__card--img" src={ img } alt="gran expresso" />
+            <div className="collection__card--content">
+                <h3 className="collection__card--title">{ title }</h3>
+                <p className="collection__card--text">{ text }</p>
             </div>
         </li>
     )

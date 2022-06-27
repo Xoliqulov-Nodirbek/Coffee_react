@@ -12,10 +12,10 @@ import LogoFooter from "../../assets/icons/footer.svg";
 
 const Footer= () => {
     return (
-        <div class="footer__inner">
+        <div className="footer__inner">
             <Logo img={ LogoFooter } />
             <Nav />
-            <ul class="footer__list">
+            <ul className="footer__list">
                 <Facebook />
                 <Twitter />
                 <Instagram />

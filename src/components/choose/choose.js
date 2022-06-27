@@ -5,15 +5,15 @@ import "./choose.scss";
 
 const Choose = () => {
     return (
-        <section class="choose">
-                <div class="choose__inner">
+        <section className="choose">
+                <div className="choose__inner">
 
-                    <div class="choose__content">
-                        <h2 class="choose__content--title">Why choose us?</h2>
-                        <p class="choose__content--text">A large part of our role is choosing which particular coffees will be featured in our range. This means working closely with the best coffee growers to give you a more impactful experience on every level.</p>
+                    <div className="choose__content">
+                        <h2 className="choose__content--title">Why choose us?</h2>
+                        <p className="choose__content--text">A large part of our role is choosing which particular coffees will be featured in our range. This means working closely with the best coffee growers to give you a more impactful experience on every level.</p>
                     </div>
 
-                    <div class="choose__cards card">
+                    <div className="choose__cards card">
                         <ChooseCard 
                             newClass={"card__one"}
                             title={"Best quality"} 

@@ -11,9 +11,9 @@ import Image4 from "../../assets/images/kopi4.png";
 
 const Collection = () => {
     return (
-        <section class="collection">
-                <div class="collection__inner">
-                    <ul class="collection__list">
+        <section className="collection">
+                <div className="collection__inner">
+                    <ul className="collection__list">
                         <Card 
                             img={Image1}
                             title={"Gran Espresso"} 
