@@ -11,7 +11,7 @@ import "./assets/Scss/fonts.scss";
 import Footer from "./components/footer/footer";
 
 // ----> Js
-import "./assets/js/main";
+// import "./assets/js/main";
 
 function App() {
   return (
