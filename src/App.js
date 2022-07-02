@@ -3,15 +3,12 @@ import Hero from "./components/hero/hero";
 import Collection from "./components/collection/collection";
 import Choose from "./components/choose/choose";
 import Works from "./components/works/works";
+import Footer from "./components/footer/footer";
 
 // ----> Scss
 import "./assets/Scss/container.scss";
 import "./assets/Scss/general.scss";
 import "./assets/Scss/fonts.scss";
-import Footer from "./components/footer/footer";
-
-// ----> Js
-// import "./assets/js/main";
 
 function App() {
   return (
